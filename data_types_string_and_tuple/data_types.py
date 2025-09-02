@@ -65,3 +65,30 @@
 #         return f"It ning ovozi {self.speak()}"
 #     def speak(self):
 #         return f"cat ning ovozi {self.speak()}"
+# class Animal:
+#     def __init__(self):
+#         self.cat = "mio mio"
+#         self.dog = "wow wow"
+# class Dog(Animal):
+#     def __init__(self):
+#         super().__init__()
+#         self.dog_soft = self.do       g
+#         self.cat_soft = self.cat
+#     def super(self):
+#         return f"dog suptitor{self.dog_soft}cat suptitor{self.cat_soft}"
+#
+# print(Dog().super())
+# class Vehicle:
+#     def __init__(self):
+#         self.car = "mmmmmmmmmmmmMMMMMMMMMMMMMMMMMMmmmmmmmMMMMMM"
+#
+# class Bike(Vehicle):
+#     def __init__(self):
+#         super().__init__()
+#         self.car_soft = self.car
+#
+#     def get_info(self):
+#         return f"car soft: {self.car_soft}"
+#
+# obj = Bike()
+# print(Bike().get_info())
